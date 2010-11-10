@@ -5,20 +5,9 @@ BEGIN { require 5.006; }
 
 use ExtUtils::MakeMaker;
 
-
 WriteMakefile(
   'ABSTRACT' => 'Meta Package for CT NC',
   'AUTHOR' => 'Michael Axiak <mike@axiak.net>',
-  'BUILD_REQUIRES' => {
-    'Data::Dumper' => '0',
-    'File::Spec' => '0',
-    'File::Temp' => '0.20',
-    'IO::Dir' => '0',
-    'Test::More' => '0.88'
-  },
-  'CONFIGURE_REQUIRES' => {
-    'ExtUtils::MakeMaker' => '6.31'
-  },
   'DISTNAME' => 'Meta-CTNCPackages',
   'EXE_FILES' => [],
   'LICENSE' => 'perl',
@@ -69,6 +58,6 @@ WriteMakefile(
     'URI::Escape' => '0',
     'utf8' => '0'
   },
-  'VERSION' => '1'
+  'VERSION' => '1.0.1'
 );
 
